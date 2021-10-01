@@ -113,7 +113,6 @@ namespace SqlPhoneApp
             PhoneForm frmDeletePhoneEntry = new PhoneForm();
             bool oKtoDelete;
 
-            // todo: needs work
             oKtoDelete = frmDeletePhoneEntry.Delete(selectedItem); // Calls the for to shows the item to delete
 
             if (oKtoDelete)

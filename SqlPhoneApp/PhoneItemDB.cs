@@ -16,9 +16,7 @@ namespace SqlPhoneApp
             // need a connectionString
 
             // School Connection
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Andrew Feely\OneDrive\Documents\CIT\Summer 2021\INFO 1434\Projects\SqlPhoneApp\SqlPhoneApp\PhoneDatabase.mdf;Integrated Security=True";
-            // HomeConnection   Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=N:\1434\Summer21\SqlPhoneApp\SqlPhoneApp\PhoneDatabase.mdf;Integrated Security=True
-            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\1434\Summer21\WindowsFormsApp1\WindowsFormsApp1\PhoneDatabase.mdf;Integrated Security=True";
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=*here*PhoneDatabase.mdf;Integrated Security=True"; //Todo: insert path to local database at specified location
 
             SqlConnection connection = new SqlConnection(connectionString);
 
